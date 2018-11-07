@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#container {
+  width: 30%;
+  margin: 17% auto; }
+
+ul {
+  list-style: none; }
+  ul li {
+    background-color: #bfc2c7;
+    padding: 2% 0 2% 0;
+    border-radius: 2px;
+    border: 1px solid #f3f3f3;
+    color: #6e6e6e; }
+    ul li:hover {
+      padding-bottom: 0; }
+    ul li span {
+      padding-left: 4%; }
+
+p {
+  display: none;
+  border: 1px solid #f3f3f3;
+  border-top: 0;
+  color: #6e6e6e;
+  margin-top: 2%;
+  background-color: white;
+  color: #6e6e6e;
+  padding: 4%;
+  text-align: justify; }
+
+li:hover p {
+  display: block; }
+
+/*# sourceMappingURL=stilos.css.map */

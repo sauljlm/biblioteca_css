@@ -1,0 +1,48 @@
+.container {
+  margin: 400px 900px;
+  width: 200px;
+  height: 40px; }
+
+.container button {
+  background: #2EECD5;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  text-transform: uppercase;
+  border-radius: 4px; }
+
+.container button:hover span {
+  display: block; }
+
+.container button:hover {
+  background: transparent;
+  border: 2px solid #2EECD5;
+  cursor: pointer;
+  color: #2EECD5; }
+
+.container span {
+  display: none;
+  color: #fff;
+  position: absolute;
+  left: 990px;
+  top: 345px;
+  background: black;
+  width: 100px;
+  height: 40px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 18px; }
+
+/*flechita*/
+span:before {
+  position: absolute;
+  content: "";
+  top: 40px;
+  left: 0px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: black transparent transparent transparent; }
+
+/*# sourceMappingURL=stilos.css.map */

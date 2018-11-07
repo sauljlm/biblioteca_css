@@ -1,0 +1,61 @@
+*{
+	margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Krub', sans-serif;
+}
+
+.btn_abrir{
+	padding:300px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	font-size:20px;
+    display: inline-block;
+    color: $black;
+	padding: 7px;
+	width: 110px;
+	border:1px solid $black;
+	border-radius: 5px;
+}
+a:hover{
+    background: $black; color:#fff; 
+    border:1px solid $black;
+}
+
+//estilos del modal
+#miModal{
+	display: none;
+    position: fixed;
+    left:0;
+	top:0;
+	z-index:1;
+	width:100%;
+	height:100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.contenido-modal{
+	position: relative;
+	background-color: #fefefe;
+	width: 30%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .4);
+    margin:auto;
+    margin-top: 8%;
+}
+.x{
+    width: 20px;
+}
+.modal-header{
+	padding: 10px  16px 5px 16px;
+	background: #2D9EFC;
+}
+
+p{
+	text-align: justify;
+}
+
+.modal-body{
+	padding: 20px 16px;
+}
